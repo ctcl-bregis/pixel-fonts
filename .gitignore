@@ -1,2 +1,11 @@
+# Conversion script
 *.py
+
+# Built files
 *.ttf
+*.bdf
+
+# Other things that should not be in the repo
+*.jpg
+*.png
+
