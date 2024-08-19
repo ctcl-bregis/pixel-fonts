@@ -1,0 +1,37 @@
+pixel-7x7": {
+            "variants": {
+                "condensed": "Pixel-7x7-condensed.sfd"
+            }
+        },
+        "pixel-8x8": {
+            "variants": {
+                "condensed": "Pixel-8x8-condensed.sfd",
+                "condensed-light": "Pixel-8x8-condensed-light.sfd"
+            }
+        },
+        "pixel-10x10": {
+            "variants": {
+                "condensed": "Pixel-10x10-condensed.sfd"
+            }
+        },
+        "pixel-11x11": {
+            "variants": {
+                "condensed": "Pixel-11x11-condensed.sfd",
+                "condensed-light": "Pixel-11x11-condensed-light.sfd"
+            }
+        },
+        "pixel-12x12": {
+            "variants": {
+                "condensed-light": "Pixel-12x12-condensed-light.sfd",
+                "condensed": "Pixel-12x12-condensed.sfd"
+            }
+        },
+        "pixel-14x14": {
+            "variants": {
+                "condensed-light": "Pixel-14x14-condensed-light.sfd",
+                "condensed": "Pixel-14x14-condensed.sfd",
+                "supercondensed": "Pixel-14x14-supercondensed.sfd",
+                "true-mono-vcr": "Pixel-14x14-true-mono-vcr.sfd",
+                "true-mono": "Pixel-14x14-true-mono.sfd"
+            }
+        },

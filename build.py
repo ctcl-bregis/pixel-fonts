@@ -1,7 +1,7 @@
 # Pixel Fonts - CTCL 2022-2024
 # Purpose: Build script for all fonts and icons
 # Created: July 7, 2024
-# Modified: July 11, 2024
+# Modified: July 12, 2024
 
 import io
 import json
@@ -114,8 +114,8 @@ def bdf2vecs(path, output, exts):
 with open("config.json") as f:
     cfg = dict(json.loads(f.read()))
 
-if os.path.exists("build/"):
-    shutil.rmtree("build/")
+#if os.path.exists("build/"):
+#    shutil.rmtree("build/")
 
 if not os.path.exists("build/"):
     os.mkdir("build/")
@@ -127,12 +127,13 @@ for iconset in cfg["icons"]["list"]:
     if not os.path.exists(f"build/{iconset}"):
         os.mkdir(f"build/{iconset}/")
 
-    for icon in filelist:
-        piskelc2svg(f"{iconset}/{icon}", f"build/{iconset}/" + icon[:-2] + ".svg")
+    #for icon in filelist:
+    #    piskelc2svg(f"{iconset}/{icon}", f"build/{iconset}/" + icon[:-2] + ".svg")
 
     
 for (name, data) in cfg["fonts"].items():
-    os.mkdir("build/" + name)
+    if not os.path.exists(f"build/{name}"):
+        os.mkdir(f"build/{name}")
 
     for (variant, path) in data["variants"].items(): 
         sfd = fontforge.open(f"{name}/{path}")

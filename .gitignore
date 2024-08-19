@@ -7,6 +7,5 @@ build/
 
 # Other things that should not be in the repo
 *.jpg
-*.png
 *.pdf
 *.rs
