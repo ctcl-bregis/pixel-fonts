@@ -53,7 +53,7 @@ WinInfo: 0 90 24
 OnlyBitmaps: 1
 BeginPrivate: 0
 EndPrivate
-BeginChars: 1114112 109
+BeginChars: 1114112 110
 
 StartChar: zero
 Encoding: 48 48 0
@@ -701,7 +701,7 @@ EndChar
 
 StartChar: bar
 Encoding: 124 124 92
-Width: 1000
+Width: 200
 Flags: W
 LayerCount: 2
 EndChar
@@ -814,6 +814,12 @@ Width: 300
 Flags: W
 LayerCount: 2
 EndChar
+
+StartChar: mu
+Encoding: 181 181 109
+Width: 2000
+LayerCount: 2
+EndChar
 EndChars
 BitmapFont: 20 110 16 4 1
 BDFChar: 0 48 10 0 7 0 11
@@ -880,8 +886,8 @@ BDFChar: 30 62 9 0 6 0 11
 ^u0/k*"EGu3,mfk
 BDFChar: 31 63 10 0 7 0 11
 4FZJ2!s];U(]YBi
-BDFChar: 32 64 10 0 0 0 0
-z
+BDFChar: 32 64 10 0 7 0 8
+IfI=?hqu6LIfKHK
 BDFChar: 33 65 10 0 7 0 11
 IfI='_uKbS_o'C0
 BDFChar: 34 66 10 0 7 0 11
@@ -940,12 +946,12 @@ BDFChar: 60 92 10 0 7 0 11
 ^u/U>0K:$\%L*.?
 BDFChar: 61 93 6 0 3 0 11
 nF/+c0JG170JN"c
-BDFChar: 62 94 10 0 0 0 0
-z
+BDFChar: 62 94 10 0 7 7 11
+(d*91_Z0Z:
 BDFChar: 63 95 10 0 7 -2 -1
 s8N'!
-BDFChar: 64 96 10 0 0 0 0
-z
+BDFChar: 64 96 10 2 5 12 15
+^u0/c
 BDFChar: 65 97 10 0 7 0 7
 IfBM"s24kc
 BDFChar: 66 98 10 0 7 0 11
@@ -1000,12 +1006,12 @@ BDFChar: 90 122 10 0 7 0 7
 s8NQK3,not
 BDFChar: 91 123 10 0 0 0 0
 z
-BDFChar: 92 124 10 0 0 0 0
-z
+BDFChar: 92 124 4 0 1 -4 15
+^qdb$^qdb$^qdb$^qdb$^qdb$
 BDFChar: 93 125 10 0 0 0 0
 z
-BDFChar: 94 126 10 0 0 0 0
-z
+BDFChar: 94 126 10 0 7 5 8
+E;SN&
 BDFChar: 95 162 20 0 0 0 0
 z
 BDFChar: 96 169 14 0 11 0 11
@@ -1034,5 +1040,7 @@ BDFChar: 107 175 20 0 0 0 0
 z
 BDFChar: 108 176 6 0 3 8 11
 @$$IX
+BDFChar: 109 181 20 0 0 0 0
+z
 EndBitmapFont
 EndSplineFont

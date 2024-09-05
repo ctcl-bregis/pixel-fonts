@@ -1,9 +1,14 @@
 {
     "fonts": {
-        "pixel-16x16": {
+        "pixel-7x7": {
             "variants": {
-                "condensed-light": "Pixel-16x16-condensed-light.sfd",
-                "condensed": "Pixel-16x16-condensed.sfd"
+                "condensed": "Pixel-7x7-condensed.sfd"
+            }
+        },
+        "pixel-12x12": {
+            "variants": {
+                "condensed": "Pixel-12x12-condensed.sfd",
+                "condensed-light": "Pixel-12x12-condensed-light.sfd"
             }
         }
     },
